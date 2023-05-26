@@ -16,29 +16,29 @@ Type a command or find a list of all commands using the 'help' command
 
 setup = input("user: ")
 
-  if setup == 'Ver':
+if setup == 'Ver':
     print("Pre-Dev")
     
-  if setup == 'Verify':
+if setup == 'Verify':
     print("OS version is legitimate.")
     
-  if setup == 'License':
+if setup == 'License':
     print("Pre-Dev Beta License Installed.")
   
-  if setup == 'print':
+if setup == 'print':
     printopt = input("user: ")
     print(printopt)
     
-  if setup == 'OS':
+if setup == 'OS':
     print("Pre-Dev Install")
    
-  if setup == 'SD':
+if setup == 'SD':
     print("No stored data found.")
    
-  if setup == 'Futr':
+if setup == 'Futr':
     print("""(c) 2020 Futr. All rights reserved. It is illegal to redistribute or rebrand this software without Author permission.""")
    
-  if setup == 'Awesome':
+if setup == 'Awesome':
     print("""
 ╔══╦╗──────╔╗────────╔╗──────────────────────────╔╗───╔╗─────────╔╗
 ╚╗╔╣╚╦═╗╔═╦╣╠╗╔╦╦═╦╦╗║╚╦═╗╔═╦═╦═╦═╦╦╦╦╦═╦═╦╦═╗╔╦╦╣╚╦═╗║╚╦═╦╗╔═╦═╦╝║
@@ -51,14 +51,15 @@ setup = input("user: ")
 ╚═╩═╩═╩═╝╚╝╚═╩═╩╝╚═╩══╝
     """)
     
-  if setup == 'help':
-    print("""
-    Ver - Finds version of FutrOS
-    Verify - Verifies version of FutrOS
-    License - Shows license info
-    Print - Prints to terminal
-    OS - OS Info
-    SD - Shows stored data
-    Futr - Shows copyright info
-    "")
+if setup == 'help':
+  print("""
+  Ver - Finds version of FutrOS
+  Verify - Verifies version of FutrOS
+  License - Shows license info
+  Print - Prints to terminal
+  OS - OS Info
+  SD - Shows stored data
+  Futr - Shows copyright info
+  """)
+
 
