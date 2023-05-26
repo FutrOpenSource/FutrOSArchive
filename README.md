@@ -1,2 +1,2 @@
 # FutrOSArchive
-Archive of all FutrOS versions
+An Archive of all FutrOS versions including unsupported version
