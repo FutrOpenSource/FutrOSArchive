@@ -1,0 +1,8 @@
+You can import apps by using the "def" function
+
+1) Copy the code from the python script you want to use 
+2) Paste it under "def appname1():"
+
+To modify the app name, go to the line that says appname1 = "App name not assigned" and enter the name of your app where it says "App name not assigned".
+
+(c) 2020 Futr. All rights reserved
