@@ -159,7 +159,7 @@ if setup == 'sd':
     {pas} - Password
     {email} - Email
     {phone} - Phone Number 
-    """")   
+    """)   
 if setup == 'futr':
     print("""(c) 2020 Futr. All rights reserved. It is illegal to redistribute or rebrand this software without author permission.""")
 if setup ==  'help':
