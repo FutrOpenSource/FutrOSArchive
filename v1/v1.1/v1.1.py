@@ -135,7 +135,7 @@ if setup == 'archive':
 This version of FutrOS is archived
         """)
 if setup == 'ver':
-       print("v1.0.0U (Universal)")
+       print("v1.1.0U (Universal)")
 if setup == 'verletter':
        print("""
        U - Universal version of FutrOS - Currently installed version
