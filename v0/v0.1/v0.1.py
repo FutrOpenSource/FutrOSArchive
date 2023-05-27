@@ -52,7 +52,7 @@ if setup == '2':
                                                                                   ╚╝─╚╣╔═╣╔═╩══╝
                                                                                   ────║║─║║
                                                                                   ────╚╝─╚╝
-                                                                                    [1] Insert App Name Here
+                                                                               [1] Insert App Name Here
                                                         
         """)
         
@@ -71,53 +71,6 @@ if setup ==  'awesome':
 ╚═╩═╩═╩═╝╚╝╚═╩═╩╝╚═╩══╝
 
                """)
-if setup == 'eos':
-       print ("""
-       This Version Of FutrOS is listed under "not supported", update to a newer version for full software support.
-       """)
-if setup == 'routing':
-      print ("""
-      FutrOS Manual Routing.
-      """)
-if setup == 'v0':
-      print ("""
-      Thanks for using FutrOS, we hope you enjoy using v0.1!
-      """)
-if setup == 'codename':
-    print("""
-      V1S
-    """)
-if setup == 'c':
-        print("""
-        (c) 2020 Futr. All rights reserved.
-        """)
-if setup =='switchverlocation':
-        print("""
-        Version specific location switching isn't available on this device.
-        """)
-if setup == 'upgrade':
-      print ("""
-      Upgrade to newer versions of FutrOS at https://bit.ly/futrosupdate.
-      """)
-if setup ==  'beta':
-        print ("""         
-This is a beta version of FutrOS
-               """)
-if setup == 'archive':
-        print("""
-This version of FutrOS is archived
-        """)
-if setup ==  'help':
-        print ("""
-All commands:
-eos - End of Support Info
-Routing - Routing Info
-c - Copyright Info for FutrOS 0.1
-Upgrade - How to upgrade FutrOS
-beta - Beta Info
-Archive - OS Archive Info
-
-Commands are case-sensitive. """)
 
 #Import Apps Here (using define and myapp1)
 #e.g. 
